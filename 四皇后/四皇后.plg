@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 四皇后 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.YLM\AppData\Local\Temp\RSP609B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/四皇后.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\hucsd\C\四皇后\四皇后.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1.YLM\AppData\Local\Temp\RSP609B.tmp" 
+Creating temporary file "C:\Users\ADMINI~1.YLM\AppData\Local\Temp\RSP609C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/四皇后.pdb" /debug /machine:I386 /out:"Debug/四皇后.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\四皇后.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1.YLM\AppData\Local\Temp\RSP609C.tmp"
+<h3>Output Window</h3>
+Compiling...
+四皇后.cpp
+D:\hucsd\C\四皇后\四皇后.cpp(37) : warning C4101: 'k' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+四皇后.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
